@@ -20,4 +20,8 @@ export class LoginComponent {
       alert('Invalid credentials');
     }
   }
+
+  onForgotPassword(): void {
+    this.router.navigate(['/forgot-password']);
+  }
 }
